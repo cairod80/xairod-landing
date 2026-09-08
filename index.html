@@ -3,17 +3,42 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<meta name="description" content="Xairod — Find verified agencies, African food, safe housing and a live community in Cairo, Egypt. Built for Africans moving to and living in Egypt."/>
+<title>Xairod — Your Home Away From Home in Cairo, Egypt</title>
+<meta name="description" content="Xairod connects Africans in Egypt with verified health services, African food, safe housing, admission agencies and Arabic language schools. Trusted by Africans in Cairo."/>
+<meta name="keywords" content="Africans in Egypt, African community Cairo, Nigerian in Cairo, Ghanaian Egypt, admission agency Egypt, Al-Azhar university Africa, housing Cairo students, African food Cairo, health services Cairo foreigners"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="Xairod — USAFA Ltd"/>
 <meta name="theme-color" content="#0A6B3E"/>
-<meta property="og:title" content="Xairod — Your Home Away From Home"/>
-<meta property="og:description" content="Find trusted agencies, African food, safe housing and a community in Cairo. Built for Africans in Egypt."/>
-<meta property="og:url" content="https://xairod.com"/>
-<meta name="description" content="Xairod — The platform connecting Africans in Egypt with verified agencies, housing, health, food and community. Find trusted services in Cairo."/>
-<meta name="keywords" content="Africans in Egypt, African community Cairo, Nigeria Egypt, Ghana Egypt, admission agency Cairo, housing Cairo Africans"/>
-<meta property="og:title" content="Xairod — Your Home Away From Home"/>
-<meta property="og:description" content="Verified agencies, housing, health and community for Africans in Cairo, Egypt."/>
+<!-- Open Graph -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Xairod — Your Home Away From Home in Cairo, Egypt"/>
+<meta property="og:description" content="Health, food, housing, schools and community for Africans in Egypt. Verified businesses, real reviews."/>
 <meta property="og:url" content="https://www.xairod.com"/>
-<title>Xairod — Your Home Away From Home</title>
+<meta property="og:image" content="https://www.xairod.com/og-image.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:site_name" content="Xairod"/>
+<meta property="og:locale" content="en_US"/>
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Xairod — Your Home Away From Home"/>
+<meta name="twitter:description" content="Health, food, housing, schools and community for Africans in Egypt."/>
+<meta name="twitter:image" content="https://www.xairod.com/og-image.png"/>
+<!-- Favicons -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<link rel="canonical" href="https://www.xairod.com"/>
+<!-- Google Analytics 4 — replace G-XXXXXXXXXX with your real GA4 ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer=window.dataLayer||[];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js',new Date());
+  gtag('config','G-XXXXXXXXXX');
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,700;1,9..144,800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
@@ -589,7 +614,7 @@ img{max-width:100%;}
     </div>
   </div>
   <div class="footer-bottom">
-    <div>© 2026 USAFA Ltd (UK) · Operating Xairod LLC (Egypt)</div>
+    <div style="line-height:1.8;">© 2026 USAFA Ltd · Registered in England & Wales<br/><span style="font-size:10px;opacity:0.6;">Email: hello@xairod.com · Telegram: t.me/ckairod · Cairo, Egypt</span></div>
     <div class="footer-bottom-links">
       <a href="https://xairod.com/privacy">Privacy</a>
       <a href="https://xairod.com/terms">Terms</a>
@@ -597,6 +622,38 @@ img{max-width:100%;}
     </div>
   </div>
 </footer>
+
+<!-- ── STICKY MOBILE CTA ── -->
+<div id="sticky-cta" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:#0A6B3E;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 -4px 20px rgba(0,0,0,0.2);">
+  <div>
+    <div style="font-family:'Fraunces',serif;font-size:15px;font-weight:900;color:white;">Join Xairod Free →</div>
+    <div style="font-size:10px;color:rgba(255,255,255,0.6);margin-top:1px;">Health · Food · Housing · Schools</div>
+  </div>
+  <a href="https://xairod.com" style="background:#4DD994;color:#03311A;padding:10px 20px;border-radius:10px;font-weight:800;font-size:13px;white-space:nowrap;text-decoration:none;">Open App</a>
+</div>
+
+<!-- ── COOKIE BANNER ── -->
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;z-index:1000;background:#1a1510;border-top:2px solid #0A6B3E;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+  <div style="font-size:12px;color:rgba(255,255,255,0.7);line-height:1.6;flex:1;min-width:240px;">
+    🍪 We use essential cookies to keep you logged in and make the platform work. We don't use tracking or advertising cookies.
+    <a href="https://xairod.com/privacy" style="color:#4DD994;font-weight:700;margin-left:4px;">Privacy Policy ↗</a>
+  </div>
+  <div style="display:flex;gap:8px;flex-shrink:0;">
+    <button onclick="acceptCookies()" style="background:#4DD994;color:#03311A;border:none;padding:9px 20px;border-radius:8px;font-weight:800;font-size:12px;cursor:pointer;font-family:'Outfit',sans-serif;">Accept</button>
+    <button onclick="document.getElementById('cookie-banner').style.display='none'" style="background:transparent;color:rgba(255,255,255,0.4);border:1px solid rgba(255,255,255,0.15);padding:9px 16px;border-radius:8px;font-weight:700;font-size:12px;cursor:pointer;font-family:'Outfit',sans-serif;">Dismiss</button>
+  </div>
+</div>
+
+<!-- ── THANK YOU OVERLAY ── -->
+<div id="thank-you-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:2000;align-items:center;justify-content:center;">
+  <div style="background:#1a1510;border:2px solid #4DD994;border-radius:20px;padding:40px;max-width:360px;width:90%;text-align:center;">
+    <div style="font-size:52px;margin-bottom:12px;">🎉</div>
+    <div style="font-family:'Fraunces',serif;font-size:24px;font-weight:900;color:white;margin-bottom:8px;">You're on the list!</div>
+    <div style="font-size:13px;color:rgba(255,255,255,0.55);line-height:1.7;margin-bottom:24px;">Welcome to Xairod. We'll notify you as soon as your spot is ready. While you wait, join our Telegram community.</div>
+    <a href="https://t.me/ckairod" target="_blank" style="display:block;background:#0A6B3E;color:white;padding:12px;border-radius:10px;font-weight:800;font-size:14px;margin-bottom:10px;text-decoration:none;">Join Telegram Community →</a>
+    <button onclick="closeThankYou()" style="background:transparent;color:rgba(255,255,255,0.4);border:none;font-size:12px;cursor:pointer;font-family:'Outfit',sans-serif;">Close</button>
+  </div>
+</div>
 
 <script>
 // Smooth nav link scrolling
@@ -623,6 +680,49 @@ document.querySelectorAll('.step,.testi-card,.group-card,.cat-box').forEach(el=>
   el.style.transition='opacity 0.6s ease, transform 0.6s ease';
   obs.observe(el);
 });
+
+// Cookie banner
+function acceptCookies(){
+  localStorage.setItem('xairod_cookies','accepted');
+  document.getElementById('cookie-banner').style.display='none';
+  // space for sticky CTA when cookies accepted
+  document.getElementById('sticky-cta').style.display='flex';
+}
+if(!localStorage.getItem('xairod_cookies')){
+  setTimeout(()=>{document.getElementById('cookie-banner').style.display='flex';},1500);
+} else {
+  document.getElementById('sticky-cta').style.display='flex';
+}
+
+// Thank-you overlay
+function showThankYou(){
+  document.getElementById('thank-you-overlay').style.display='flex';
+  if(typeof gtag!=='undefined') gtag('event','waitlist_join',{event_category:'engagement'});
+}
+function closeThankYou(){
+  document.getElementById('thank-you-overlay').style.display='none';
+}
+
+// Hook waitlist form to show thank-you
+document.addEventListener('DOMContentLoaded',()=>{
+  const forms=document.querySelectorAll('form,[data-waitlist]');
+  forms.forEach(f=>{
+    f.addEventListener('submit',e=>{
+      setTimeout(()=>{
+        if(!document.querySelector('.alert-error')){showThankYou();}
+      },600);
+    });
+  });
+  // Also hook waitlist buttons
+  document.querySelectorAll('[data-action="waitlist"]').forEach(btn=>{
+    btn.addEventListener('click',()=>setTimeout(showThankYou,600));
+  });
+});
+
+// Hide sticky CTA when cookie banner visible
+const stickyEl=document.getElementById('sticky-cta');
+const cookieEl=document.getElementById('cookie-banner');
+if(cookieEl.style.display!=='none'&&stickyEl){stickyEl.style.marginBottom='80px';}
 </script>
 
 </body>
