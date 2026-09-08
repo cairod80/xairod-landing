@@ -1,0 +1,13 @@
+{
+  "name": "Xairod",
+  "short_name": "Xairod",
+  "description": "Your home away from home in Cairo, Egypt",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0A05",
+  "theme_color": "#0A6B3E",
+  "icons": [
+    {"src": "/favicon-32x32.png", "sizes": "32x32", "type": "image/png"},
+    {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}
+  ]
+}
